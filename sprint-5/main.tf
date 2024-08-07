@@ -1,5 +1,5 @@
 module "salary_setup" {
-  source = "./salary_setup"
+  source = "./salary-setup"
 
   vpc_cidr_block           = "10.0.0.0/16"
   instance_tenancy         = "default"
