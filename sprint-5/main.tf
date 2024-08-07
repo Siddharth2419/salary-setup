@@ -1,3 +1,6 @@
+provider "aws" {
+  region = var.aws_region
+}
 module "salary_setup" {
   source = "./salary-setup"
 
